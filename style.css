@@ -103,26 +103,46 @@ footer span{
 footer .container{
     padding-top: 25px;
 }
-
-
-
-/* -------------------------İLETİŞİM SAYFASI----------------------------------------------- */
-
-.email-form{
-    width: 50%;
-    margin: 0 auto;
-}
-#email-btn{
-    float: right;
-    background-color: #006972;
-    font-weight: bold;
-}
 .footer-first-container{
     padding: 50px 0;
 }
 
 
+/* -------------------------İLETİŞİM SAYFASI----------------------------------------------- */
 
+.email-form{
+    padding: 100px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+#email-btn{
+    margin-top: 10px;
+    float: right;
+    background-color: #006972;
+    font-weight: bold;
+}
+
+/* HİZMETLERİMİZ SAYFASI */
+
+.maske-foto-size{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hizmet-info p{
+    font-size: 1.1rem;
+}
+.hizmet-info{
+    margin: 70px 0;
+}
+
+/* BİZKİMİZ SAYFASI*/
+.biz-kimiz-mr{
+   padding: 25px 25px 0 25px;
+}
+.row-mr{
+    margin-bottom: 250px;
+}
 
 
 @media screen and (max-width: 768px){
